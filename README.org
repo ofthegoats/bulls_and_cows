@@ -1,0 +1,19 @@
+#+TITLE: Bulls and Cows
+#+AUTHOR: ofthegoats
+
+[[https://en.wikipedia.org/wiki/Bulls_and_Cows][Bulls and Cows]], made playable over =nc=. 4 digit codes variant.
+
+* Building
+
+Clone the repo and use =make=.
+
+* Playing
+
+Run the executable with the optional argument of what port to run on. The default is =8080=.
+
+Connect using =nc=, format =nc [destination] [port]=.
+
+The first two people to connect get to play together.
+
+A "bull" (represented by B) means a character is in the correct place.
+A "cow" (represented by C) means one of the characters is correct, but in the wrong place.
